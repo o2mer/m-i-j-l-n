@@ -23,7 +23,7 @@ class EmployeeResource extends Resource
 
     protected static ?string $modelLabel = 'Employee';
 
-    protected static ?string $navigationGroup = 'System Management';
+    protected static ?string $navigationGroup = 'Paramètres';
 
     public static function form(Form $form): Form
     {
